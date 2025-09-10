@@ -1,0 +1,119 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.welcome {
+    color: #e2c697;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.welcome h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.about-section {
+    background: #161718;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #ff7e5f;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #666;
+}
+
+.about-section img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.about-section .shape7{
+    top: 0;
+    left: -130px;
+    width: 100px;
+}
+
+.about-section .shape8{
+    bottom: 0;
+    right: -130px;
+    width: 100px;
+}
+
+.footer {
+    background: #2a2a2a;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* Additional Styling */
+a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .welcome h1 {
+        font-size: 2.5em;
+    }
+
+    .about-section h2 {
+        font-size: 2em;
+    }
+}

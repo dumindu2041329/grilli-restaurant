@@ -1,0 +1,138 @@
+/* Dark Theme Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161718;
+    color: #ffffff;
+}
+
+.table-container {
+    margin: 40px auto;
+    max-width: 90%;
+    width: 1200px;
+    background-color: #161718;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+    height: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #e63946;
+}
+
+.restaurant-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #1e1f21;
+}
+
+.restaurant-table th, .restaurant-table td {
+    border: 1px solid #2c2e31;
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.restaurant-table th {
+    background-color: #27292b;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.restaurant-table tr:nth-child(even) {
+    background-color: #1c1d1f;
+}
+
+.restaurant-table tr:hover {
+    background-color: #27292b;
+}
+
+.restaurant-table td {
+    font-size: 14px;
+}
+
+/* Status Colors */
+.available {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.reserved {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.cleaning {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+/* Reserve Button */
+.reserve-btn {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reserve-btn:hover:not([disabled]) {
+    background-color: #c5303f;
+}
+
+.reserve-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .restaurant-table {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .restaurant-table thead {
+        display: none; /* Hide table headers */
+    }
+
+    .restaurant-table tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #2c2e31;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .restaurant-table td {
+        display: block;
+        text-align: left;
+        padding: 8px 10px;
+        position: relative;
+        color: #ffffff;
+    }
+
+    .restaurant-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #e63946;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    /* Buttons */
+    .reserve-btn {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+}

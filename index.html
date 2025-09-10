@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grilli - Amazing & Delicious Foods</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Foods" />
+    <meta name="description" content="This is a restaurant html template made by dumindu" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml" />
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Section -->
+    <div class="top-section" id="top">
+        <div class="left-section">
+            <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Restaurant St, Delicious City, London 9578 UK</span>
+            </div>
+
+            <div class="square"></div>
+
+            <div class="open-time">
+                <i class="fa-regular fa-clock"></i>
+                <span>Daily: 8.00 am to 10.00 pm</span>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <a class="mobile" href="tel:+94715594850">
+                <i class="fa-solid fa-phone"></i>
+                <span>+94715594850</span>
+            </a>
+
+            <div class="square"></div>
+
+            <a class="email" href="mailto:booking@restaurant.com">
+                <i class="fa-regular fa-envelope"></i>
+                <span>booking@restaurant.com</span>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Header Section -->
+    <div class="header">
+        <a class="image" href="./index.html">
+            <img src="./assets/images/logo.svg" alt="logo">
+        </a>
+
+        <input type="checkbox" name="" id="menu-checkbox">
+        <label for="menu-checkbox" class="menu-buttons">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="menu">
+            <img src="./assets/images/logo.svg" alt="logo">
+            <label for="menu-checkbox"><i class="fa-regular fa-circle-xmark"></i></label>
+            <li class="active">
+                <span class="seperator"></span>
+                <a href="./index.html">HOME</a>
+            </li>
+
+            <li>
+                <span class="seperator"></span>
+                <a href="#delicious-menu">MENUS</a>
+            </li>
+
+            <li>
+                <span class="seperator"></span>
+                <a href="#our-story">ABOUT US</a>
+            </li>
+
+            <li>
+                <span class="seperator"></span>
+                <a href="#our-chefs">OUR CHEFS</a>
+            </li>
+
+            <li>
+                <span class="seperator"></span>
+                <a href="#online-reservation-section">CONTACT</a>
+            </li>
+
+            <div class="visit-us">
+                <p class="title">Visit Us</p>
+                <div class="desc">
+                    <p>Restaurant St, Delicious City,<br> London 9578, UK</p>
+                    <p>Open 9.30 am - 2.30 pm</p>
+                    <p>booking@grilli.com</p>
+                </div>
+            </div>
+
+            <div class="square"></div>
+
+            <p class="book-title">Booking Request</p>
+            <a href="tel: +94715594850" class="phone">+94715594850</a>
+        </ul>
+
+        <div class="table">
+            <a href="./assets/other pages/table book.html" class="find-a-table">Find a table</a>
+        </div>
+    </div>
+
+    <!-- Image Slider -->
+    <div class="slider">
+        <div class="slides">
+            <!-- For One Slide -->
+            <div class="slide curr">
+                <img src="./assets/images/hero-slider-1.jpg" alt="" class="bg-image">
+                <div class="slider-text">
+                    <p class="title">Tradational & Hygine</p>
+                    <img src="./assets/images/separator.svg" alt="" class="seperator">
+                    <h1 class="main-text">For the love of<br>delicious food</h1>
+                    <p class="sub-text">Come with family & feel the joy of mouthwatering food</p>
+                    <a href="./assets/other pages/menu.html" class="slider-btn">View Our Menu</a>
+                </div>
+            </div>
+    
+            <div class="slide">
+                <img src="./assets/images/hero-slider-2.jpg" alt="" class="bg-image">
+                <div class="slider-text">
+                    <p class="title">delightful experience</p>
+                    <img src="./assets/images/separator.svg" alt="" class="seperator">
+                    <h1 class="main-text">Flavors Inspired by<br>the Seasons</h1>
+                    <p class="sub-text">Come with family & feel the joy of mouthwatering food</p>
+                    <a href="./assets/other pages/menu.html" class="slider-btn">View Our Menu</a>
+                </div>
+            </div>
+    
+            <div class="slide">
+                <img src="./assets/images/hero-slider-3.jpg" alt="" class="bg-image">
+                <div class="slider-text">
+                    <p class="title">amazing & delicious</p>
+                    <img src="./assets/images/separator.svg" alt="" class="seperator">
+                    <h1 class="main-text">Where every flavor<br>tells a story</h1>
+                    <p class="sub-text">Come with family & feel the joy of mouthwatering food</p>
+                    <a href="./assets/other pages/menu.html" class="slider-btn">View Our Menu</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrow Navigation -->
+        <a href="" class="arrow left"><i class="fa-solid fa-chevron-up fa-2xs"></i></a>
+        <a href="" class="arrow right"><i class="fa-solid fa-chevron-up fa-2xs"></i></a>
+
+        <!-- Book a table -->
+        <a href="#online-reservation-section" class="book-table">
+            <img src="./assets/images/hero-icon.png" alt="">
+            <p>Book A<br>Table</p>
+            <div class="box"></div>
+        </a>
+    </div>
+
+    <!-- Flavours for royalty -->
+    <div class="flavours">
+        <!-- Background Images -->
+        <div class="bg-images">
+            <img src="./assets/images/shape-1.png" alt="shape1">
+            <img src="./assets/images/shape-2.png" alt="shape2">
+        </div>
+
+        <div class="title">
+            <p class="topic">Flavours for royalty</p>
+            <img src="./assets/images/separator.svg" alt="seperator">
+            <p class="sub-topic">We Offer Top Notch</p>
+            <p class="desc">
+                Flavours for Royalty on this website showcases a curated selection of wonderful dishes crafted to deliver a high priced eating enjoy, presenting top class substances, wealthy flavors, and terrific presentation suit for a royal ceremonial dinner.
+            </p>
+        </div>
+
+        <div class="offer-section">
+            <div class="offers">
+                <div class="image">
+                    <img src="./assets/images/img-pattern.svg" alt="img-pattern">
+                    <div class="service-image">
+                        <img src="./assets/images/service-1.jpg" alt="service-1">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Breakfast</p>
+                    <a href="./assets/other pages/menu.html#breakfast">View Menu</a>
+                </div>
+            </div>
+
+            <div class="offers">
+                <div class="image">
+                    <img src="./assets/images/img-pattern.svg" alt="img-pattern">
+                    <div class="service-image">
+                        <img src="./assets/images/service-2.jpg" alt="service-2">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Appetizers</p>
+                    <a href="./assets/other pages/menu.html#appetizers">View Menu</a>
+                </div>
+            </div>
+
+            <div class="offers">
+                <div class="image">
+                    <img src="./assets/images/img-pattern.svg" alt="img-pattern">
+                    <div class="service-image">
+                        <img src="./assets/images/service-3.jpg" alt="service-3">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>Drinks</p>
+                    <a href="./assets/other pages/menu.html#drinks">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Story Section -->
+    <div class="our-story" id="our-story">
+        <div class="sec1">
+            <div class="main-title">
+                <p>our story</p>
+                <img src="./assets/images/separator.svg" alt="seperator" class="seperator">
+            </div>
+
+            <p class="sub-title">Every Fla vor<br>
+                tells a story
+            </p>
+
+            <p class="description">
+                At Grilli, we believe that great food is the heart of every memorable moment. Our journey began with a passion for creating dishes that bring people together, blending traditional flavors with modern culinary artistry. Rooted in a love for grilling, we started as a humble neighborhood spot, serving flame-kissed meats, fresh seafood, and vibrant veggies. Over time, our menu expanded to celebrate diverse cuisines while staying true to our smoky, hearty roots.
+            </p>
+
+            <div class="table-book">
+                <p class="title">Book Through Call</p>
+                <a href="tel:+94715594850" class="phone">+94715594850</a>
+                <a href="./assets/other pages/our story.html" class="read-more">Read More</a>
+            </div>
+
+            <img src="./assets/images/shape-3.png" alt="Shape 3" class="shape-3">
+        </div>
+
+        <div class="sec2">
+            <img src="./assets/images/about-banner.jpg" alt="about-banner" class="main-image">
+            <img src="./assets/images/badge-2.png" alt="badge-2" class="badge-2">
+            <img src="./assets/images/about-abs-image.jpg" alt="about-abs-image" class="sub-image">
+            <img src="./assets/images/img-pattern.svg" alt="img-pattern" class="img-pattern">
+        </div>
+    </div>
+
+    <!-- Special Dish -->
+    <div class="special-dish">
+        <div class="sec1">
+            <img src="./assets/images/special-dish-banner.jpg" alt="Special Dish Banner">
+        </div>
+
+        <div class="sec2">
+            <p class="title">Special Dish</p>
+            <img src="./assets/images/separator.svg" alt="" class="separator">
+            <img src="./assets/images/badge-1.png" alt="" class="badge-1">
+            <p class="food">Lobster<br>Tortellini</p>
+
+            <p class="desc">
+                Dive into indulgence with our handcrafted tortellini, delicately filled with succulent lobster meat and a hint of creamy ricotta. This exquisite dish is served in a velvety saffron-infused cream sauce, accented with a drizzle of truffle oil and garnished with fresh herbs. Each bite offers a perfect balance of tender pasta, rich flavors, and a touch of oceanic luxury. A true feast for seafood lovers and connoisseurs alike!
+            </p>
+
+            <div class="price">
+                <p class="old-price">$40.00</p>
+                <p class="new-price">$20.00</p>
+            </div>
+
+            <a href="./assets/other pages/menu.html" class="view-all">View All Menu</a>
+            <img src="./assets/images/shape-4.png" alt="" class="shape-4">
+        </div>
+    </div>
+
+    <!-- Shape 9 Image -->
+    <img src="./assets/images/shape-9.png" alt="shape-9" class="shape-9">
+
+    <!-- Delicious Menu -->
+    <div class="delicious-menu" id="delicious-menu">
+        <div class="bg-images">
+            <img src="./assets/images/shape-5.png" alt="Shape 5" class="shape-5">
+            <img src="./assets/images/shape-6.png" alt="Shape 6" class="shape-6">
+        </div>
+
+        <div class="upper">
+            <div class="title">
+                <p class="topic">Special Selection</p>
+                <img src="./assets/images/separator.svg" alt="separator" class="separator">
+                <p class="sub-topic">Delicious Menu</p>
+            </div>
+
+            <div class="foods">
+                <div class="part">
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-1.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Greek Salad</p>
+                                <p class="special">Seasonal</p>
+                                <div class="double-border"></div>
+                                <p class="price">$25.50</p>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>A refreshing mix of crisp cucumbers, juicy tomatoes, red onions, and Kalamata olives, topped with creamy feta cheese and drizzled with olive oil and oregano. A classic Mediterranean delight!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-3.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Butternut Pumpkin</p>
+                                <div class="double-border"></div>
+                                <div class="price">$10.00</div>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>A creamy and comforting dish featuring tender butternut pumpkin, roasted to perfection and seasoned with warm spices. Perfectly balanced with natural sweetness and a hint of earthiness, it’s a wholesome delight for any occasion.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-5.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Olivas Rellenas</p>
+                                <div class="double-border"></div>
+                                <div class="price">$25.00</div>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>A delightful Spanish treat of plump green olives stuffed with savory fillings like cheese, anchovies, or pimentos. Perfectly briny and bursting with flavor, they’re an irresistible bite-sized appetizer!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="part">
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-2.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Lasagne</p>
+                                <div class="double-border"></div>
+                                <div class="price">$40.00</div>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>A classic Italian delight, layered with rich meat sauce, creamy béchamel, and perfectly melted cheese, all baked to golden perfection. Comfort food at its finest!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-4.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Tokusen Wagyu</p>
+                                <div class="double-border"></div>
+                                <div class="price">$39.00</div>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>Experience the pinnacle of luxury with Tokusen Wagyu, renowned for its exquisite marbling, tenderness, and rich, buttery flavor. Each bite melts in your mouth, offering an unparalleled dining experience that redefines indulgence.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food">
+                        <div class="image">
+                            <img src="./assets/images/menu-6.png" alt="Menu 1">
+                        </div>
+
+                        <div class="desc">
+                            <div class="top-section">
+                                <p>Opu Fish</p>
+                                <div class="double-border"></div>
+                                <div class="price">$49.00</div>
+                            </div>
+
+                            <div class="bottom-section">
+                                <p>A delicate and flavorful freshwater fish, Opu Fish is celebrated for its tender, flaky texture and subtle, sweet taste. Perfectly suited for grilling, steaming, or curries, it’s a versatile choice for seafood lovers seeking a light yet satisfying dish.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <p>During winter daily from <span>7:00 pm</span> to <span>9:00 pm</span></p>
+                <a href="./assets/other pages/menu.html" class="btn">View All Menu</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Chefs -->
+    <div class="our-chefs" id="our-chefs">
+        <div class="title">
+            <p class="topic">Our Chefs</p>
+            <img src="./assets/images/separator.svg" alt="separator" class="separator">
+        </div>
+
+        <p class="sub-title">Meet our professional chefs</p>
+        <div class="chefs">
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 1.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Avroko</p>
+                <p class="position">Master Chef</p>
+                <a href="./assets/other pages/chefs/Avroko.html" class="btn">View Profile</a>
+            </div>
+
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 2.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Evon Mathew</p>
+                <p class="position">Master Chef</p>
+                <a href="./assets/other pages/chefs/Evon Mathew.html" class="btn">View Profile</a>
+            </div>
+
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 3.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Diana Clarkson</p>
+                <p class="position">Senior Chef</p>
+                <a href="./assets/other pages/chefs/Diana Clarkson.html" class="btn">View Profile</a>
+            </div>
+
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 4.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Dan Rufolin</p>
+                <p class="position">Assistant Chef</p>
+                <a href="./assets/other pages/chefs/Dan Rufolin.html" class="btn">View Profile</a>
+            </div>
+
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 5.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Ryan Bravo</p>
+                <p class="position">Master Chef</p>
+                <a href="./assets/other pages/chefs/Ryan Bravo.html" class="btn">View Profile</a>
+            </div>
+
+            <div class="chef">
+                <div class="image">
+                    <img src="./assets/images/chef image 6.jpg" alt="chef image 1">
+                </div>
+                <p class="name">Marguerite Bise</p>
+                <p class="position">Master Chef</p>
+                <a href="./assets/other pages/chefs/Marguerite Bise.html" class="btn">View Profile</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Section -->
+    <div class="review-section">
+        <div class="main-part">
+            <div class="review">
+                <p>
+                    I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+                    extraordinary.
+                </p>
+            </div>
+
+            <div class="squares">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+
+            <div class="reviewer">
+                <img src="./assets/images/testi-avatar.jpg" alt="testi-avatar">
+                <p>Sam Jhonson</p>
+            </div>
+        </div>
+
+        <!-- Online Reservation Section -->
+        <div class="online-reservation-section" id="online-reservation-section">
+            <div class="left-section">
+                <p class="title">Online Reservation</p>
+                <p class="sub-title">Booking request <a href="tel:+94715594850" class="mobile">+94715594850</a> or fill
+                    out the order form</p>
+                <form action="">
+                    <div class="part-1">
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Your Phone">
+                    </div>
+
+                    <div class="part-2">
+                        <select name="" id="">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 Person</option>
+                            <option value="3">3 Person</option>
+                            <option value="4">4 Person</option>
+                            <option value="5">5 Person</option>
+                            <option value="6">6 Person</option>
+                            <option value="7">7 Person</option>
+                        </select>
+
+                        <input type="date" name="" id="">
+
+                        <select name="" id="">
+                            <option value="08.00 am">08.00 am</option>
+                            <option value="09.00 am">09.00 am</option>
+                            <option value="10.00 am">10.00 am</option>
+                            <option value="11.00 am">11.00 am</option>
+                            <option value="12.00 am">12.00 am</option>
+                            <option value="01.00 pm">01.00 pm</option>
+                            <option value="02.00 pm">02.00 pm</option>
+                            <option value="03.00 pm">03.00 pm</option>
+                            <option value="04.00 pm">04.00 pm</option>
+                            <option value="05.00 pm">05.00 pm</option>
+                            <option value="06.00 pm">06.00 pm</option>
+                            <option value="07.00 pm">07.00 pm</option>
+                            <option value="08.00 pm">08.00 pm</option>
+                            <option value="09.00 pm">09.00 pm</option>
+                            <option value="10.00 pm">10.00 pm</option>
+                        </select>
+                    </div>
+
+                    <div class="part-3">
+                        <textarea name="message" id="" placeholder="Message"></textarea>
+                    </div>
+
+                    <a href="" class="btn">Book a table</a>
+                </form>
+            </div>
+
+            <div class="right-section">
+                <p class="title">Contact Us</p>
+                <div class="booking-request">
+                    <p class="sub-title">Booking Request</p>
+                    <a href="tel:+94715594850" class="mobile">+94715594850</a>
+                </div>
+
+                <div class="square"></div>
+                <div class="location-lunch-dinner">
+                    <div class="location">
+                        <p class="bold-text">Location</p>
+                        <p class="gray-text">
+                            Restaurant St, Delicious City, London 9578, UK
+                        </p>
+                    </div>
+
+                    <div class="lunch">
+                        <p class="bold-text">Lunch Time</p>
+                        <p class="gray-text">
+                            Monday to Sunday<br>11.00 am - 2.30pm
+                        </p>
+                    </div>
+
+                    <div class="dinner">
+                        <p class="bold-text">Dinner Time</p>
+                        <p class="gray-text">
+                            Monday to Sunday<br>05.00 pm - 10.00pm
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shape 7 Image -->
+    <img src="./assets/images/shape-7.png" alt="Shape 7" class="shape-7">
+
+    <!-- Our Strength Section -->
+    <div class="our-strength">
+        <div class="container">
+            <p class="title">Why Choose Us</p>
+            <img src="./assets/images/separator.svg" alt="separator" class="separator">
+            <p class="sub-title">Our Strength</p>
+            <div class="strengths">
+                <div class="strength">
+                    <img src="./assets/images/features-icon-1.png" alt="features icon 1">
+                    <p class="strength-title">Hygienic Food</p>
+                    <p class="strength-desc">Our food is prepared with the highest standards of cleanliness, ensuring every dish is safe, fresh, and crafted with care to maintain both taste and health.</p>
+                </div>
+
+                <div class="strength">
+                    <img src="./assets/images/features-icon-2.png" alt="features icon 1">
+                    <p class="strength-title">Fresh Environment</p>
+                    <p class="strength-desc">Enjoy a vibrant and welcoming atmosphere, where clean, natural surroundings create the perfect setting for a relaxed dining experience.</p>
+                </div>
+
+                <div class="strength">
+                    <img src="./assets/images/features-icon-3.png" alt="features icon 1">
+                    <p class="strength-title">Skilled Chefs</p>
+                    <p class="strength-desc">Our skilled chefs bring passion and expertise to every dish, expertly crafting flavorful meals using the finest ingredients and time-honored techniques.</p>
+                </div>
+
+                <div class="strength">
+                    <img src="./assets/images/features-icon-4.png" alt="features icon 1">
+                    <p class="strength-title">Event & Party</p>
+                    <p class="strength-desc">Host your next event or celebration at our restaurant! Whether it's a cozy gathering or a grand party, we provide a welcoming atmosphere, delicious food, and exceptional service to make your occasion unforgettable.</p>
+                </div>
+            </div>
+
+            <img src="./assets/images/shape-8.png" alt="shape 8" class="shape-8">
+        </div>
+    </div>
+
+    <!-- Recent Updates -->
+    <div class="recent-updates">
+        <div class="container">
+            <p class="title">Recent Updates</p>
+            <img src="./assets/images/separator.svg" alt="separator" class="separator">
+            <p class="sub-title">Upcoming Event</p>
+            <div class="events">
+                <div class="event">
+                    <img src="./assets/images/event-1.jpg" alt="event 1">
+                    <p class="date">15/11/2024</p>
+                    <p class="title">Food, Flavour</p>
+                    <p class="desc">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+
+                <div class="event">
+                    <img src="./assets/images/event-2.jpg" alt="event 1">
+                    <p class="date">09/11/2024</p>
+                    <p class="title">Healthy Food</p>
+                    <p class="desc">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+
+                <div class="event">
+                    <img src="./assets/images/event-3.jpg" alt="event 1">
+                    <p class="date">05/11/2024</p>
+                    <p class="title">Recipie</p>
+                    <p class="desc">Flavour so good you’ll try to eat with your eyes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="sec1">
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#delicious-menu">Menus</a></li>
+                    <li><a href="#our-story">About Us</a></li>
+                    <li><a href="#our-chefs">Our Chefs</a></li>
+                    <li><a href="#online-reservation-section">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-section">
+                <img src="./assets/images/logo.svg" alt="">
+                <div class="contact">
+                    <p>Restaurant St, Delicious City, London 9578, UK</p>
+                    <a href="mailto:booking@grilli.com">booking@grilli.com</a>
+                    <a href="tel:+94715594850">Booking Request : +94715594850</a>
+                    <p>Open : 09:00 am - 01:00 pm</p>
+                </div>
+
+                <div class="squares">
+                    <div class="square"></div>
+                    <div class="square"></div>
+                    <div class="square"></div>
+                </div>
+
+                <div class="subscribe-us">
+                    <p class="title">Get News & Offers</p>
+                    <p class="desc">Subscribe us & Get <span>25% Off.</span></p>
+                    <form action="">
+                        <input type="text" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Youtube</a></li>
+                    <li><a href="">Google Map</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sec2">
+            <p>&copy; 2024 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/dumindu2041329" target="_blank">dumindu</a></p>
+        </div>
+    </div>
+
+    <!-- Go to top -->
+    <a class="go-to-top" href="#top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <!-- External JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/* Chef Profile (Modern Elegant Dark Theme) */
+.chef-profile {
+    background-color: #1d1d1d;  /* Dark background for an elegant, modern feel */
+    padding: 50px;
+    color: #e4e4e4;  /* Light text for contrast */
+    font-family: 'DM Sans', sans-serif;
+}
+
+.chef-profile .chef-title {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chef-profile .chef-title .chef-name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f2d7a1;  /* Soft gold color for elegance */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.chef-profile .chef-title .separator {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.chef-profile .chef-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.chef-profile .chef-details .chef-image {
+    width: 45%;
+    text-align: center;
+    height: 600px;
+}
+
+.chef-profile .chef-details .chef-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);  /* Stronger shadow for depth */
+    object-fit: cover;
+}
+
+.chef-profile .chef-details .chef-bio {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.chef-profile .chef-details .chef-bio .bio-title {
+    font-size: 2.5rem;
+    color: #f2d7a1;  /* Soft gold for the bio title */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.chef-profile .chef-details .chef-bio .bio-description {
+    color: #d1d1d1;
+    margin-bottom: 20px;
+}
+
+.chef-profile .chef-details .chef-bio .specialty-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff8c00;  /* Warm orange accent for specialties */
+    margin-top: 20px;
+}
+
+.chef-profile .chef-details .chef-bio .specialty-description {
+    color: #b5b5b5;
+}
+
+.chef-profile .chef-details .chef-bio p {
+    margin-bottom: 15px;
+}
